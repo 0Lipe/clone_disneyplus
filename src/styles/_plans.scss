@@ -1,0 +1,87 @@
+.plans{
+    padding: 5.6vw;
+
+        h2, p{
+            text-align: center;
+        }
+
+        &__contents{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 15px;
+            max-width: 992px;
+            margin-left: auto;
+            margin-right: auto;
+
+            &__col{
+                display: grid;
+                grid-template-columns: 42% 29% 29%;
+
+                
+                
+                &__item{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 40px;
+                    padding: 33px 8px;
+                    border-bottom: 1px solid hsla(0,0%,75%,.3);
+
+                    &__combo{
+                        background-color: #1d1f2b;
+                    }
+
+                    &_e{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        border-bottom: 1px solid hsla(0,0%,75%,.3);
+                        padding: 33px;
+                    }
+                }
+
+                &__left{
+                    display: flex;
+                    justify-content: flex-start;
+                    p{
+                    text-align: left;
+                    direction: ltr;
+                    }
+                }
+            }
+        }
+
+        &__content{
+            display: flex;
+            align-items: stretch;
+            flex-direction: row;
+            position: sticky;
+            border-bottom: 1px solid #f9f9f9;
+            
+            
+            &__preco{
+                display: flex;
+                align-items: center;
+                flex: 1;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 30px 12px;
+                position: relative;
+                text-align: center;
+                width: 29%;
+
+                &__combo{
+                    background-image: url(../images/fundo_combo_plus.png);
+                    background-repeat: no-repeat;
+                    background-position: 14% 0;
+                }
+            }
+
+            &__space{
+                width: 42%;
+                
+            }
+        }
+
+    }
